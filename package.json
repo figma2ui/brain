@@ -1,0 +1,19 @@
+{
+  "name": "@figma2ui/brain",
+  "version": "0.1.0",
+  "description": "Figma to shadcn/ui mapping engine - no div soup",
+  "type": "module",
+  "main": "src/figmaToShadcnMapper.ts",
+  "scripts": {
+    "dev": "tsx src/figmaToShadcnMapper.ts",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.16.0"
+  }
+}
